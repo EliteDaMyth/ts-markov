@@ -1,0 +1,21 @@
+{
+	"name": "ts-markov",
+	"version": "1.0.4",
+	"description": "Module to make use of markov chains!",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"test": "mocha -r ts-node/register 'tests/**/*.ts' --timeout 30000",
+		"build": "tsc",
+		"docs": "typedoc --out docs ./src/ --theme ./docstheme/default/"
+	},
+	"author": "EliteDaMyth",
+	"license": "ISC",
+	"repository": {},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^14.14.20",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.1.3"
+	}
+}
